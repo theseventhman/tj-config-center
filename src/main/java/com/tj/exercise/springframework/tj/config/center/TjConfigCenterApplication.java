@@ -1,4 +1,4 @@
-package com.tj.exercise.springframework.tjconfigcenter;
+package com.tj.exercise.springframework.tj.config.center;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

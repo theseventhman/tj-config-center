@@ -1,4 +1,4 @@
-package com.tj.exercise.springframework.tjconfigcenter;
+package com.tj.exercise.springframework.tj.config.center;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
