@@ -20,8 +20,8 @@ public class FileScanner {
         }
 
 
-        rootPath = FileScanner.getRealRootPath(rootPath);
-        rootPath = "E:\\git local directory\\tj-config-center\\target\\classes";
+     //   rootPath = FileScanner.getRealRootPath(rootPath);
+
         File rootFile = new File(rootPath);
         boolean result = rootFile.isDirectory();
         if(!rootFile.isDirectory()) {
