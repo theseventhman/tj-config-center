@@ -18,7 +18,7 @@ public class EnvInitializer {
 
     public static void init(){
         String rootPath = EnvInitializer.class.getResource("/").getPath();
-        List<String> fileList = FileScanner.findFileByType(rootPath,null,FileScanner.TYPE_YML);
+        List<String> fileList = FileScanner.findFileByType(rootPath,null,FileScanner.TYPE_CLASS);
         for(String ymlFilePath : fileList){
             rootPath = FileScanner.getRealRootPath(rootPath);
             ymlFilePath = ymlFilePath.replace(rootPath,"");

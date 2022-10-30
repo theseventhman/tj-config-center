@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tj-center
+
+server:
+  port: 6879
+
+person:
+  name: Hydra
+  age: 18
